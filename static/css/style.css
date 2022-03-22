@@ -34,7 +34,7 @@ img {
   height: 100%;
   display: flex;
   margin: 20px;
-  margin-left:90px !important;
+  margin-left: 90px !important;
   align-items: center;
   justify-content: center;
 }
@@ -190,13 +190,55 @@ input:checked + .slider:before {
   margin-left: 90px;
 }
 
-.section-home .right{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.section-home .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.section-home .right img{
-    width:400px !important;
+.section-home .right img {
+  width: 400px !important;
+}
+
+.animate-terms {
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: -39px;
+  margin-left: 250px;
+  position: relative;
+}
+.animate-terms u {
+  /* position:absolute; */
+  animation-name: animate-terms;
+
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-direction: normal;
+  position: relative;
+  transition: all 1s linear;
+}
+
+@keyframes animate-terms {
+  25% {
+    delay: 10s;
+    bottom: 39px;
+  }
+  50% {
+    delay: 20s;
+    bottom: calc(39px + 39px);
+  }
+  75% {
+    delay: 40s;
+    bottom: calc(39px + 39px + 39px);
+  }
+  100% {
+    delay: 60s;
+    bottom: calc(39px + 39px + 39px + 39px);
+  }
 }
