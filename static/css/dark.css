@@ -17,6 +17,7 @@
   margin: 0px;
   box-sizing: border-box;
   background: var(--dark-theme);
+  width:100%;
 }
 
 img {

@@ -20,4 +20,4 @@ def difpoint():
     return "<h1>Second page!</h1>"
 
 
-app.run(debug=True)
+app.run(debug=False)
