@@ -10,42 +10,51 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="favicon" type="image/png" sizes="16x16" href="../static/images/icon.png">
+    <link
+      rel="favicon"
+      type="image/png"
+      sizes="16x16"
+      href="../static/images/icon.png"
+    />
     <link rel="stylesheet" href="./static/css/style.css" />
     <link rel="stylesheet" href="./static/css/dark.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <title>Inciteverse</title>
   </head>
   <body>
-   <!-- Messenger Chat plugin Code -->
-   <div id="fb-root"></div>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
 
-   <!-- Your Chat plugin code -->
-   <div id="fb-customer-chat" class="fb-customerchat">
-   </div>
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-   <script>
-     var chatbox = document.getElementById('fb-customer-chat');
-     chatbox.setAttribute("page_id", "114853604436898");
-     chatbox.setAttribute("attribution", "biz_inbox");
-   </script>
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "114853604436898");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
-   <!-- Your SDK code -->
-   <script>
-     window.fbAsyncInit = function() {
-       FB.init({
-         xfbml            : true,
-         version          : 'v13.0'
-       });
-     };
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v13.0"
+        });
+      };
 
-     (function(d, s, id) {
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) return;
-       js = d.createElement(s); js.id = id;
-       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-   </script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
     <header class="header">
       <a class="brand">
         <img src="./static/images/inciteverse.png" />
@@ -78,16 +87,10 @@
       <section class="section-home" id="home">
         <div class="left">
           <div class="content">
-            <h1>We are IV.</h1>
+            <h1>We are Inciteverse.</h1>
             <p>
               We promise to take your
-              <b class="animate-terms">
-                <u>Brand</u>
-                <u>Business</u>
-                <u>Blogs</u>
-                <u>Store</u>
-                <u>Website</u>
-              </b>
+              <b>Brand</b>
               to another <b>Verse</b>.
             </p>
             <p>Start growing your Business now.</p>
@@ -121,5 +124,7 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="./static/js/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>
