@@ -41,8 +41,7 @@ img {
 
 .header .navbar {
   background: var(--primary-color);
-  width: 60%;
-  height: 50px;
+  height: 45px;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
 }
@@ -51,34 +50,40 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-right:10px
 }
 .header .navbar ul.navs li {
   display: flex;
-  margin: 0px 20px;
+  /* margin:  10px; */
   text-align: center;
-  width: 100px;
-  height: 100%;
+  width: 90px;
+  height: 50px !important;
   align-items: center;
-
-  justify-content: center;
-  font-size: 4rem;
   line-height: 40px;
+  justify-content: center;
+  /* font-size: 2rem; */
 }
 li a {
   text-decoration: none;
   color: var(--font-white);
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: block;
   width: 100%;
+  line-height: 3.5rem;
+  height: 5rem;
+}
+
+li a:hover{
+  color: #fff;
 }
 
 .switch {
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 34px;
+  width: 40px;
+  height: 20px;
   border-radius: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 2.8rem;
   margin-right: 10px;
 }
 
@@ -91,7 +96,7 @@ li a {
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
+  top: 2px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -103,10 +108,10 @@ li a {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -121,9 +126,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(46px);
-  -ms-transform: translateX(46px);
-  transform: translateX(36px);
+  -webkit-transform: translateX(36px);
+  -ms-transform: translateX(36px);
+  transform: translateX(22px);
 }
 
 /* Rounded sliders */
@@ -208,4 +213,61 @@ input:checked + .slider:before {
 .animate-terms {
   -webkit-text-stroke: 1.5px #353535;
   -webkit-text-fill-color: transparent;
+}
+
+.section-service {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.section-service .title {
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: bold;
+  /* margin-top: 50px; */
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  width: 100%;
+  min-height: 95vh;
+  width: 100%;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.services .service {
+  background: #fff;
+  margin: 10px;
+  min-height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.services .service h2 {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.services .service p {
+  padding: 5px 20px;
+  font-size: 1.5rem;
+}
+
+.services .service img {
+  /* margin: 10px; */
+  width: 100%;
+  height: 100%;
 }
