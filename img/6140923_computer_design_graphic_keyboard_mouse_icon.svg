@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<svg viewBox="0 0 88 88"
+    xmlns="http://www.w3.org/2000/svg">
+    <title/>
+    <g data-name="Keyboard Computer" id="Keyboard_Computer">
+        <path d="M27,49v4H23a1,1,0,0,0,0,2H45a1,1,0,0,0,0-2H41V49Z"/>
+        <path d="M3,42a5.0059,5.0059,0,0,0,5,5H60a5.0059,5.0059,0,0,0,5-5V39H3Zm29,0h4a1,1,0,0,1,0,2H32a1,1,0,0,1,0-2Z"/>
+        <path d="M35,73V71H33v2Z"/>
+        <path d="M39,73V71H37v2Z"/>
+        <path d="M53,73h6V71H53Z"/>
+        <path d="M47,73V71H45v2Z"/>
+        <path d="M51,73V71H49v2Z"/>
+        <path d="M43,73V71H41v2Z"/>
+        <path d="M19,73V71H17v2Z"/>
+        <path d="M15,73V71H9v2Z"/>
+        <rect height="2" width="2" x="9" y="79"/>
+        <path d="M23,73V71H21v2Z"/>
+        <path d="M27,73V71H25v2Z"/>
+        <path d="M31,73V71H29v2Z"/>
+        <path d="M29,75H27v2h2Z"/>
+        <path d="M17,75H15v2h2Z"/>
+        <path d="M13,75H9v2h4Z"/>
+        <path d="M21,75H19v2h2Z"/>
+        <path d="M31,77h2V75H31Z"/>
+        <path d="M35,77h2V75H35Z"/>
+        <path d="M13,79v2h2V79Z"/>
+        <path d="M45,75H43v2h2Z"/>
+        <path d="M25,75H23v2h2Z"/>
+        <path d="M53,75H51v2h2Z"/>
+        <path d="M55,77h4V75H55Z"/>
+        <path d="M41,75H39v2h2Z"/>
+        <path d="M49,75H47v2h2Z"/>
+        <rect height="2" width="2" x="33" y="63"/>
+        <rect height="2" width="2" x="37" y="63"/>
+        <rect height="2" width="2" x="29" y="63"/>
+        <rect height="2" width="2" x="21" y="63"/>
+        <rect height="2" width="2" x="17" y="63"/>
+        <rect height="2" width="2" x="41" y="63"/>
+        <rect height="2" width="2" x="25" y="63"/>
+        <rect height="2" width="2" x="45" y="63"/>
+        <rect height="2" width="2" x="57" y="63"/>
+        <path d="M17,79v2h2V79Z"/>
+        <rect height="2" width="2" x="49" y="63"/>
+        <rect height="2" width="2" x="53" y="63"/>
+        <path d="M61,57H7a4.0039,4.0039,0,0,0-4,4V83a4.0039,4.0039,0,0,0,4,4H61a4.0039,4.0039,0,0,0,4-4V61A4.0039,4.0039,0,0,0,61,57Zm0,25a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V70a1,1,0,0,1,1-1H60a1,1,0,0,1,1,1Zm0-16a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V62a1,1,0,0,1,1-1H60a1,1,0,0,1,1,1Z"/>
+        <rect height="2" width="2" x="13" y="63"/>
+        <path d="M41,79v2h2V79Z"/>
+        <path d="M45,79v2h2V79Z"/>
+        <path d="M21,79v2h2V79Z"/>
+        <path d="M25,79v2h2V79Z"/>
+        <path d="M29,79v2H39V79Z"/>
+        <rect height="2" width="2" x="9" y="63"/>
+        <rect height="2" width="2" x="57" y="79"/>
+        <path d="M53,79v2h2V79Z"/>
+        <path d="M49,79v2h2V79Z"/>
+        <path d="M76,61a9.01,9.01,0,0,0-9,9v8a9,9,0,0,0,18,0V70A9.01,9.01,0,0,0,76,61Zm1,9a1,1,0,0,1-2,0V67a1,1,0,0,1,2,0Z"/>
+        <path d="M9,26.5859,21.293,14.293a.9994.9994,0,0,1,1.414,0l14,14a1,1,0,0,1-1.414,1.414L22,16.4141l-13,13V32H59V24.4141l-13-13L34.707,22.707a1,1,0,0,1-1.414-1.414l12-12a.9994.9994,0,0,1,1.414,0L59,21.5859V7H9ZM32,10a4,4,0,1,1-4,4A4.0039,4.0039,0,0,1,32,10Z"/>
+        <path d="M60,1H8A5.0059,5.0059,0,0,0,3,6V37H65V6A5.0059,5.0059,0,0,0,60,1Zm1,32a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V6A1,1,0,0,1,8,5H60a1,1,0,0,1,1,1Z"/>
+        <circle cx="32" cy="14" r="2"/>
+    </g>
+</svg>

@@ -345,15 +345,15 @@ h6,
   align-items: center;
   justify-content: center;
   color: var(--light);
-  background: url(../img/blob-primary.png) center center no-repeat;
+  /* background: url(../img/blob-primary.png) center center no-repeat; */
   background-size: contain;
   transition: 0.5s;
 }
 
 .service-item:hover .service-icon {
   color: var(--dark);
-  background: url(../img/blob-secondary.png) center center no-repeat;
-  background-size: contain;
+  /* background: url(../img/blob-secondary.png) center center no-repeat; */
+  /* background-size: contain; */
 }
 
 .service-item h5,
