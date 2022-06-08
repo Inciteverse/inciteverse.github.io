@@ -326,6 +326,7 @@ h6,
   padding: 45px 30px;
   background: var(--light);
   overflow: hidden;
+  min-height: 390px;
   transition: 0.5s;
 }
 
