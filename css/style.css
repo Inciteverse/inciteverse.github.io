@@ -178,6 +178,7 @@ h6,
 
   .sticky-top.navbar-light {
     position: fixed;
+    margin-top: 0px !important;
     background: #ffffff;
   }
 
@@ -338,6 +339,10 @@ h6,
 /* ol{
     list-style: none !important;
 } */
+
+#work, .portfolio-container {
+  min-height: 100px !important;
+}
 .service-item .service-icon {
   margin: 0 auto 20px auto;
   width: 100px;
