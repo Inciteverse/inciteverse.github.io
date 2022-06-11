@@ -1,20 +1,18 @@
-
-
 const CreateCard = (works, workDiv) => {
   html = `<div class="col-lg-4 col-md-6 portfolio-item  first wow fadeInUp tab-pane show active" role="tabpanel" aria-labelledby="pills-logos-tab" tabindex="0" id="pills-logos" data-wow-delay="0.5s">
-    <div class="rounded overflow-hidden border">
-        <div class="position-relative overflow-hidden">
-            <img class="img-fluid w-100" style="width:350px; height:350px;object-fit:cover;"  src="${works.work}" alt="">
-            <div class="portfolio-overlay">
-                <a class="btn btn-square btn-outline-light mx-1" href="${works.work}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-            </div>
-        </div>
-        <div class="bg-light p-4">
-            <p class="text-primary fw-medium mb-2">${works.type}</p>
-            <h5 class="lh-base mb-0">${works.name}</a>
-        </div>
-    </div>
-</div>`;
+      <div class="rounded overflow-hidden border">
+          <div class="position-relative overflow-hidden">
+              <img class="img-fluid w-100" style="width:350px; height:350px;object-fit:cover;"  src="${works.work}" alt="">
+              <div class="portfolio-overlay">
+                  <a class="btn btn-square btn-outline-light mx-1" href="${works.work}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+              </div>
+          </div>
+          <div class="bg-light p-4">
+              <p class="text-primary fw-medium mb-2">${works.type}</p>
+              <h5 class="lh-base mb-0">${works.name}</a>
+          </div>
+      </div>
+  </div>`;
 
   workDiv.insertAdjacentHTML("afterbegin", html);
 };
@@ -134,21 +132,10 @@ const works = [
     type: "Graphic Design"
   }
 ];
-const fetchWork = () => {
-  const workDiv1 = document.getElementById("work");
+const fetchFullWork = () => {
+  const workDiv2 = document.getElementById("work2");
 
-  let used_work = [];
-  for (let i = 0; i < 6; i++) {
-    let random = Math.floor(Math.random() * works.length);
-    while (used_work.indexOf(random) > -1)
-      random = Math.floor(Math.random() * works.length);
-    const work = works[random];
-    used_work.push(random);
-    console.log(work);
-    // works.splice(random, 1);
-    CreateCard(work, workDiv1);
-  }
+  works.forEach(work => CreateCard(work, workDiv2));
 };
 
-
-fetchWork();
+fetchFullWork();

@@ -340,7 +340,8 @@ h6,
     list-style: none !important;
 } */
 
-#work, .portfolio-container {
+#work,
+.portfolio-container {
   min-height: 100px !important;
 }
 .service-item .service-icon {
@@ -426,7 +427,7 @@ h6,
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(98, 34, 204, 0.9);
+  background: #66abdcb2;
   transition: 0.5s;
   opacity: 0;
 }
