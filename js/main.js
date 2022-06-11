@@ -1,6 +1,4 @@
 (function($) {
-  "use strict";
-
   // Spinner
   var spinner = function() {
     setTimeout(function() {
@@ -98,19 +96,16 @@ const CreateLogoCard = logos => {
 };
 
 const fetchLogos = () => {
-  const Logos = [];
-  // "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/Logos%2F" +
-  //i +
-  //  ".png?alt=media&token=c3796d23-f921-4a6f-8107-84dc8b0638a6://inciteverse.appspot.com/Logos";
-  for (let i = 1; i <= 3; i++) {
-    Logos.push(
-      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/Logos%2F" +
-        i +
-        ".png?alt=media&token=c3796d23-f921-4a6f-8107-84dc8b0638a6://inciteverse.appspot.com/Logos"
-    );
-  }
-  CreateLogoCard(Logos);
-  return Logos;
+  fetch("../data/logos.json", {
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json"
+    }
+  }).then(response => {
+    console.log(response);
+  });
+  // CreateLogoCard(Logos);
+  // return Logos;
 };
 
 fetchLogos();
