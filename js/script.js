@@ -71,18 +71,7 @@ const works = [
     name: "Vyomr - 3D",
     type: "Logo"
   },
-  {
-    work:
-      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2FIMG_2038.jpeg?alt=media",
-    name: "50% OFF Sale Poster",
-    type: "Graphic Design"
-  },
-  {
-    work:
-      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2FRESTAURENT%20table%20tent1.jpg?alt=media",
-    name: "Restaurant Menu Table-tent",
-    type: "Graphic Design"
-  },
+
   {
     work:
       "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2Fcoffee%20shop%20banner.png?alt=media",
@@ -110,26 +99,75 @@ const works = [
   {
     work:
       "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2Fsmartmockups_l42fyfg3.jpg?alt=media",
-    name: "Company Brochure 01",
+    name: "Restaurant Menu Table-tent",
     type: "Graphic Design"
   },
   {
     work:
       "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2Fsmartmockups_l42g70kk.jpg?alt=media",
-    name: "Company Brochure 02",
+    name: "50% OFF Sale Poster",
     type: "Graphic Design"
   },
   {
     work:
       "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2Fsmartmockups_l42hxq3i.jpg?alt=media",
-    name: "Company Brochure 03",
+    name: "Company Brochure 01",
     type: "Graphic Design"
   },
   {
     work:
       "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/GraphicDesgin%2Fsmartmockups_l42i0ngm.jpg?alt=media",
-    name: "Company Brochure 04",
+    name: "Company Brochure 02",
     type: "Graphic Design"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2FIMG-0830.PNG?alt=media",
+    name: "Man of Steel Illustration",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2FIMG-1674.PNG?alt=media",
+    name: "Female Game Character Illustration",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2FIMG-1779.PNG?alt=media",
+
+    name: "Tshirt Illustration 01",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2FIMG-1922.PNG?alt=media",
+    name: "Phoenix and Dragon fight Illustration",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2FIMG-1956.PNG?alt=media",
+    name: "Tshirt Illustration 02",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2FMadara%20uchiha%20vector.jpg?alt=media",
+    name: "Madara Uchiha Illustration",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2Fburger%20illustration.jpeg?alt=media",
+    name: "Burger Illustration",
+    type: "Illustration"
+  },
+  {
+    work:
+      "https://firebasestorage.googleapis.com/v0/b/inciteverse.appspot.com/o/illustration%2Ffire%20with%20mesh.png?alt=media",
+    name: "Fire with mesh Illustration",
+    type: "Illustration"
   }
 ];
 const fetchFullWork = () => {
